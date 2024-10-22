@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Previewer</title>
+    <link rel="stylesheet" href="style.css"> <!-- Kết nối với file CSS -->
+</head>
+<body>
+    <div id="image">
+        Hover over an image below to display here.
+    </div>
+
+    <!-- Các hình ảnh -->
+    <img src="th (1).jpg" alt="Image 1 description" class="previewPic" onmouseover="upDate(this)" onmouseout="undo()">
+    <img src="th (2).jpg" alt="Image 2 description" class="previewPic" onmouseover="upDate(this)" onmouseout="undo()">
+    <img src="th (3).jpg" alt="Image 3 description" class="previewPic" onmouseover="upDate(this)" onmouseout="undo()">
+
+    <script src="js.js"></script> <!-- Kết nối với file JavaScript -->
+</body>
+</html>
